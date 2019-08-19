@@ -52,8 +52,11 @@ We can calculate the mean and standard deviation of a given sample, then calcula
 *Algorithm:*
 The following example shows how the average (mean) and standard deviation looks like for sample metric (CPU Utilization) on a specific device, when there are three points of data for three Mondays at 2:00 AM.
 Collect three data points:
-Monday of week: 			          1		 2 		3
-Mean (avg) CPU Utilization: 		76 		4 		6
+
+Monday of week: 	
+1		 2 		3
+Mean (avg) CPU Utilization: 	
+76 		4 		6
 
 Calculate the population mean = (76+4+6)/3 = 28.67
 The standard deviation for this example is 33.48.
