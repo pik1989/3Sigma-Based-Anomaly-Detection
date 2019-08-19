@@ -59,3 +59,5 @@ Calculate the population mean = (76+4+6)/3 = 28.67
 The standard deviation for this example is 33.48.
 The following table depicts the hourly averages (mean) of rate data by day, the average (mean) of hourly averages and the population standard deviation of the hourly averages for the same day of the week, same hour:
 
+
+![Test Image 7](https://github.com/pik1989/3Sigma-Based-Anomaly-Detection/blob/master/images/Chart.png)
