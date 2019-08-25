@@ -61,3 +61,18 @@ The following table depicts the hourly averages (mean) of rate data by day, the 
 
 
 ![Test Image 7](https://github.com/pik1989/3Sigma-Based-Anomaly-Detection/blob/master/images/Chart.png)
+
+
+Assume that data is polled at 15-minute interval.
+
+The current utilization is greater than/less than one standard deviation can be considered as minor anomalies.
+
+**MINOR ANOMALY = (current value > mean+ 1xSD) || (current value < mean- 1xSD)**
+
+The current utilization is greater than/less than two standard deviation can be considered as major anomalies.
+
+**MAJOR ANOMALY = (current value > mean+ 2xSD) || (current value < mean- 2xSD)**
+
+The current utilization is greater than/less than three standard deviation can be considered as critical anomalies.
+
+**CRITICAL ANOMALY = (current value > mean+ 3xSD) || (current value < mean- 3xSD)**
